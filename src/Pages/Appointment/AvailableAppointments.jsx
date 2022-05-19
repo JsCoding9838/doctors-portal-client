@@ -1,8 +1,8 @@
 import { format } from 'date-fns';
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import Service from '../Appointment/Service';
 import BookingModal from './BookingModal';
-import { useQuery } from 'react-query'
+import { useQuery } from 'react-query';
 import Loading from '../Shared/Loading';
 
 const AvailableAppointments = ({date}) => {
